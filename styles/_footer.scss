@@ -1,0 +1,33 @@
+footer {
+    margin-top: 6.64rem;
+    background: black;
+    display: flex;
+    color: white;
+    padding: 1rem 6rem;
+    .footer-heading {
+        color: #75787A;
+    }
+    a {
+        min-width: 140px;
+        max-width: 160px;
+        color: white;
+        text-decoration: none;
+    }
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .footer-col:nth-child(3){
+        order: 3;
+    }
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        gap: 2rem;
+    }
+    a:hover, a:active, a:focus {
+        color: #75787a;
+    }
+}

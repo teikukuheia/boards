@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    // outline: 1px dotted green;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import "variables";
+@import "typography";
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 450px;
+    font-family: $font-primary;
+    min-height: 100vh;
+    // margin-bottom: 2rem;
+}
+@import "header";
+@import "latest";
+@import "product_card";
+@import "articles";
+@import "article";
+@import "service";
+// @import "modal"; Not working?
+@import "breakpoints";
+@import "footer";
+@import "modal_form";

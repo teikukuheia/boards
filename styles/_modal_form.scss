@@ -1,0 +1,21 @@
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .modal-field {
+        border: none;
+        outline: 2px solid #dfdfdf;
+        border-radius: 4px;
+        font-family: $font-primary;
+        padding: 0.2rem 0.5rem;
+        font-weight: 500;
+        background: #dfdfdf;
+        transition: background-color .1s linear;
+        font-size: 14px;
+    }
+    .modal-field:active, .modal-field:focus, .modal-field:focus-visible {
+        outline: 2px solid #dfdfdf;
+        background: white;
+        border: none;
+    }
+}
